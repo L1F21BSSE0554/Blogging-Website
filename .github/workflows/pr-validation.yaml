@@ -11,7 +11,7 @@ jobs:
         uses: actions/checkout@v4
       - name: install htmlhint
         run: npm install --save-dev htmlhint
-      - name: install htmlhint
+      - name: install stylelint
         run: npm install --save-dev stylelint
       - name: lint HTML files
         run: npx run htmlhint "**/*.html"
